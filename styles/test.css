@@ -1,0 +1,27 @@
+section:not(:last-child) {
+	margin-bottom: 40px;
+}
+
+.grid, .grid2 {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	width: calc((4 * 200px) + (3 * 20px));
+}
+
+.grid__item, .item2 {
+	width: 200px;
+	height: 200px;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.green {
+	background-color: green;
+}
+
+.red {
+	background-color: red;
+}
